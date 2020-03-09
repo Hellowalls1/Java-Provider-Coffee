@@ -1,6 +1,6 @@
 export const Equipment = (equipmentObject) => {
     return `
-    <section class="equipment">
+    <section class="equipmentInfo">
         <div>${equipmentObject.id}</div>
         <div>${equipmentObject.serialNumber}</div>
         <div>${equipmentObject.model}</div>
