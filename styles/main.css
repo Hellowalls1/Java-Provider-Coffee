@@ -1,39 +1,59 @@
 .container {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-direction: column;
+    
     
 }
 
 .employee {
-    display: flex;
-    flex-wrap: row nowrap;
-    justify-content: center;
-    flex-direction: column;
-    font-size: medium;
-    border: 1px solid blue;
-    padding: 20px;
-    margin: 150px 0 0 0;
-    border-radius: 15%;
-    background-color: whitesmoke;
-}
-
-.id {
-    padding-top: 10px;
-    justify-content: center;
-}
-
-
-
-.equipment {
-    display: flex;
-    flex-wrap: row nowrap;
-    justify-content: center;
-    flex-direction: column;
-    font-size: medium;
-    border: 1px solid blue;
-    padding: 20px;
-    margin: 150px 0 0 0;
-    border-radius: 15%;
-    background-color: whitesmoke;
+    text-align: center;
     
+    font-size: medium;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0 2rem 0 2rem;
+    flex-basis: 10%;
+   background-color: whitesmoke;
 }
+
+.employeeinfo {
+    padding: 1rem;
+
+
+}
+
+.necessary {
+    flex-basis: 50%;
+}
+.product {
+    flex-basis: 50%;
+    border: 1px solid blue;
+    padding: 10px;
+}
+.productInfo{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.productItem{
+    padding: 5px;
+}
+.equipment {
+    font-size: medium;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 0 0 0 0;
+}
+
+.equipmentInfo {
+    border: 1px solid black;
+   
+}
+#java__footer{
+    border: 1px solid blue;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
